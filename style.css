@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+
+
+
+/*  cor do fundo do site*/
+body {
+    
+   background-image: linear-gradient( to top, green 30%, white, red ); 
+ }
+/* cidade de osasco  */
+h1 {
+    padding: 10px 50px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+   }
+/* bandeira do lado do nome */
+.bandeira {
+
+    height: 60px;
+    left: 5px;
+    padding: 10px;
+    position:absolute;
+    top: 5px;
+    width: 250px;
+    
+}
+/* inicio botoes de navegacao */
+
+nav {
+
+	position:absolute;
+	top: 100px;
+    text-align:left;
+	right: 5px;
+    align-items: center;
+    margin: 2px 0px 0px 15px;
+}
+
+nav li {
+
+    display: inline;
+    margin: 0px 100px 0px 0px;
+    text-align: justify;
+
+}
+
+nav a {
+
+    color:#000104;
+    font-family: 'Playfair Display SC', serif;
+    padding: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto
+
+}
+/* foto da cidade */
+.foto_cidade{
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    display: block;
+    background-image: url("img/cidade.jpg");
+    background-size: cover;
+    position:relative;
+    height: 300px;
+    width: 90%;
+     
+}
+
+/* Paragrafo do resumo */
+.resumo {
+
+    color:#000000;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+}
+
+strong {
+
+    color:#5c5b53e9;
+}
+
+/* video youtube */
+.video {
+
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
+/* curiosidade */
+
+.curiosidades {
+    padding: 10px 50px;
+    color:#ffffff;
+    font-family: 'Playball', cursive;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+   
+    
+}
+
+.cidadedeoz {
+    font-family: 'Playball', cursive;
+    color:#ffffff;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+/* redes sociais */
+.icones {
+
+    margin-top: 10px;
+    margin-left:582px;
+    position:relative;
+
+
+}
+
+.icone {
+
+    height: 40px;
+    padding: 5px;
+    width: 40px;
+
+}
+h2{
+    
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+}
